@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrightstarDB.ConcurrencyIssue", "BrightstarDB.ConcurrencyIssue\BrightstarDB.ConcurrencyIssue.csproj", "{47D479C9-6C28-45AA-97B9-138E071D5407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrightstarDB", "..\BrightstarDB\src\core\BrightstarDB\BrightstarDB.csproj", "{121A81F3-EB1C-4228-81FB-0D7505A438FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CloudDebug|Any CPU = CloudDebug|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47D479C9-6C28-45AA-97B9-138E071D5407}.CloudDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D479C9-6C28-45AA-97B9-138E071D5407}.CloudDebug|Any CPU.Build.0 = Debug|Any CPU
+		{47D479C9-6C28-45AA-97B9-138E071D5407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D479C9-6C28-45AA-97B9-138E071D5407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D479C9-6C28-45AA-97B9-138E071D5407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D479C9-6C28-45AA-97B9-138E071D5407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D479C9-6C28-45AA-97B9-138E071D5407}.Staging|Any CPU.ActiveCfg = Release|Any CPU
+		{47D479C9-6C28-45AA-97B9-138E071D5407}.Staging|Any CPU.Build.0 = Release|Any CPU
+		{121A81F3-EB1C-4228-81FB-0D7505A438FB}.CloudDebug|Any CPU.ActiveCfg = CloudDebug|Any CPU
+		{121A81F3-EB1C-4228-81FB-0D7505A438FB}.CloudDebug|Any CPU.Build.0 = CloudDebug|Any CPU
+		{121A81F3-EB1C-4228-81FB-0D7505A438FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121A81F3-EB1C-4228-81FB-0D7505A438FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121A81F3-EB1C-4228-81FB-0D7505A438FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121A81F3-EB1C-4228-81FB-0D7505A438FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{121A81F3-EB1C-4228-81FB-0D7505A438FB}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{121A81F3-EB1C-4228-81FB-0D7505A438FB}.Staging|Any CPU.Build.0 = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
